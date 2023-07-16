@@ -12,8 +12,17 @@
       crossorigin="anonymous">
     <link href="https://js.arcgis.com/4.27/esri/themes/light/main.css"
       rel="stylesheet">
-    <link href="main.css"
-      rel="stylesheet">
+    
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
   </head>
 
   <body>
@@ -166,7 +175,7 @@
       crossorigin="anonymous">
     </script>
     <script src="https://js.arcgis.com/4.27/"></script>
-    <script src="main.js" type="module"></script>
+    <script src="src/main.js" type="module"></script>
   </body>
 
 </html>
