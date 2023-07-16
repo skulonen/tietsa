@@ -27,7 +27,7 @@ const streetsLayer = new GraphicsLayer();
 
 const map = new Map({
   basemap: {
-    baseLayers: [new VectorTileLayer({ portalItem: { id: '1932e7d4432d45dabc0d4d13109c1f09' } })]
+    baseLayers: [new VectorTileLayer({ portalItem: { id: 'd6e5bfbe9e0b4ad0bd200262bef745b0' } })]
   },
   layers: [streetsLayer]
 });
